@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-from config import CONN, CURSOR
-from song import Song
+from lib import CONN, CURSOR
+from lib.song import Song
 
+import pdb; pdb.set_trace()
+import sys
+print(sys.path)
 
-if __name__ == '__main__':
-    import ipdb; ipdb.set_trace()
